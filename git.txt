@@ -1,0 +1,11 @@
+#初始化git
+git init
+#添加到版本库
+git add filename
+#版本信息注释
+git commit -m "注释信息"
+#上传至指定库
+git remote add origin https://github.com/lixosen/git.git
+#提交
+git push origin master
+
